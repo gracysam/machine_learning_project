@@ -83,3 +83,10 @@ Tos stop docker conatiner
 ```
 docker stop <container_id>
 ```
+
+```
+python setup.py install
+```
+''''
+find_packages in setup file dynamically gets the packages(the folders that have __init__.py file)
+-e . in the requrirements.txt installs the custom packages and setup.py should be present
