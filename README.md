@@ -85,8 +85,20 @@ docker stop <container_id>
 ```
 
 ```
+Creation of setup.py file:
+
 python setup.py install
 ```
-''''
+````
 find_packages in setup file dynamically gets the packages(the folders that have __init__.py file)
 -e . in the requrirements.txt installs the custom packages and setup.py should be present
+`````
+
+````
+Create the folders for the housing package
+exception, logger, pipeline, component, config, entity and create __init__.py files under each folder
+````````````
+````
+to install ipykernel - pip install ipykernel
+
+to access jupyter notebook from vscode for sample coding purposes
